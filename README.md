@@ -83,7 +83,7 @@ map.on('draw:created', function (e) {
 	}
 
 	// Do whatever else you need to. (save to db, add to map etc)
-	map.addLayer(layer);
+	drawnItems.addLayer(layer);
 });
 ````
 
